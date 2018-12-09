@@ -9,7 +9,7 @@ $1::
 Toggle := !Toggle
 While Toggle {
     Send, {Blind}{1}	;; blind mode to send modifiers
-    Sleep, 150
+    Sleep, 10
 }
 return
 #IfWinActive	;; disable WoW context sensitivity
